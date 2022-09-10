@@ -6,10 +6,10 @@ let count =1;
 setInterval(()=>{
     if(count<1000){
         count++;
-        counter.innertext=count;
+        counter.innerHTML=count;
     }
 },1);
 
 setTimeout(()=>{
     followers.innerText="Followers on Instagram!"
-},5000);
+},7000);
